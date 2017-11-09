@@ -19,11 +19,11 @@ var love =  "I love you, too."
 
 function sayHiToGrandma(string) {
   if (lowercase.toLowerCase() === lowercase) {
-    return `I can't hear you!`;
+    return `${lower}`;
   } else if (uppercase.toUpperCase() === uppercase) {
-    return `YES INDEED!`;
+    return `${upper}`;
   } else if (string === `I love you, Grandma.`) {
-    return `I love you, too.`;
+    return `${love}`;
   }  else {
     console.log("FALSE!")
   }
